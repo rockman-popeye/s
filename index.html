@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>いよいよCSSの勉強だ!</title>
+</head>
+<body>
+<!-- #1CSSエンベディングスタイル -->
+    <!-- <style>
+        p{
+            color: blue;
+        }
+        </style> -->
+        <!-- インラインスタイル -->
+    <h1 style="color: red;">いよいよCSSの勉強だ！</h1>
+    <p>今日からCSSを勉強するぞ！</p>
+    <ul>
+        <li>CSSはHTMLをデザインすることが出来る</li>
+        <li>CSSは「セクレタ {プロパティ: 値}」で記述する</li>
+        <li>CSSを記述できる場所は3箇所ある</li>
+    </ul>
+    <!-- header -->
+    <header>
+        <!-- idに名前をつけてCSSで#headingでレイアウト -->
+        <h2 id="heading">セレクタの勉強</h2>
+    </header>
+    <!-- main -->
+    <main>
+    <p>今日はCSSのセレクタについて勉強した。</p>
+    <p>セレクタは、<strong>どの要素にスタイルを適用するのかを指定</strong>
+        するものらしい。</p>
+        <!-- classに名前をつけてCSSで.smallでレイアウト -->
+    <p class="small">基本的なセレクタには以下のようなものがあるとも言っていた。</p>
+    <dl>
+        <dt>タイプセレクタ</dt>
+        <dd>要素名をそのまま書くやつ。</dd>
+        <dt>クラスセレクタ</dt>
+        <!-- codeは字が変わる -->
+        <dd>タグに<code>class</code>属性を指定して、その属性値を書くやつ。
+            <strong>クラスセレクタは先頭に「.」を付けること！</strong>
+        </dd>
+        <dt>IDセレクタ</dt>
+        <dd>タグに<code>id</code>属性を指定して、その属性値を書くやつ。
+            <strong>IDセレクタは先頭に「#」を付けること！</strong>
+        </dd>
+    </dl>
+        <p>これを覚えたらCSSは極めたと言えるはず</p>
+    </main>
+    <!-- footer -->
+    <footer>
+        <p class="small">伝説のWebクリエーターになる男より。</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,29 @@
+/* リンキングスタイル */
+ul li{
+    color: green;
+}
+/* #2セレクタ */
+strong{
+    color: darkred;
+}
+
+.small{
+    font-size: 12px;
+}
+
+#heading{
+    color: orange;
+}
+
+code{
+    font-size: initial;
+    border: solid;
+}
+
+body{
+    border: solid;
+}
+
+p{
+    border: solid;
+}
